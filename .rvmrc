@@ -1,1 +1,1 @@
-rvm --create use ruby-2.1.1@fillaw
+rvm --create use ruby-2.2.1@fillaw
