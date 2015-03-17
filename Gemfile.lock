@@ -50,6 +50,8 @@ GEM
     capistrano-bundler (1.1.4)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
+    capistrano-passenger (0.0.2)
+      capistrano (~> 3.0)
     capistrano-rails (1.1.2)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
@@ -71,6 +73,7 @@ GEM
     execjs (2.4.0)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
+    highline (1.7.1)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.2.11)
@@ -182,9 +185,10 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  capistrano-bundler
+  capistrano-passenger
   capistrano-rails
   coffee-rails (~> 4.1.0)
+  highline
   jbuilder (~> 2.0)
   jquery-rails
   paperclip

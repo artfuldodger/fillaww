@@ -13,10 +13,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip'
 gem 'rmagick'
 gem 'twitter-bootstrap-rails'
-gem 'capistrano-bundler'
 
 group :development do
+  gem 'highline'
   gem 'capistrano-rails'
+  gem 'capistrano-passenger'
 end
 
 group :development, :test do
