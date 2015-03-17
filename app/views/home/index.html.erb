@@ -1,16 +1,26 @@
-<img src="/image?width=500&amp;height=500">
+<div class="row">
+  <div class="col-md-5">
+    <img src="/image?width=500&amp;height=500" width="500" height="500">
+  </div>
 
-<hr>
+  <div class="col-md-7">
+    <h1>Fillaww</h1>
 
-<h1>Get some filler images that make you say "aww"</h1>
+    <p class="lead">Filler images that make you say "aww"</p>
 
-<p>
-  Filler images are used by web designers to represent that an image will be
-  put in a particular spot, but it's not ready yet. Using fillaww is a great
-  way to get random placeholders that add some cuteness to your development
-  process.
-</p>
+    <p>
+      Filler images are used by web designers to represent that an image will be
+      put in a particular spot, but it's not ready yet. Using fillaww is a great
+      way to get random placeholders that add some cuteness to your development
+      process.
+    </p>
 
-<p>Get your adorable images from http://fillaww.com/image?width=400&height=200</p>
+    <p>
+      Get your adorable images from
+      <%= link_to 'http://fillaww.com/image?width=400&height=200',
+            'http://fillaww.com/image?width=400&height=200' %>
+    </p>
 
-<p>You can replace the width and height with whatever dimensions you need.</p>
+    <p>You can replace the width and height with whatever dimensions you need.</p>
+  </div>
+</div>
