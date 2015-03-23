@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip'
 gem 'rmagick'
 gem 'twitter-bootstrap-rails'
+gem 'look_of_performance'
 
 group :development do
   gem 'highline'
